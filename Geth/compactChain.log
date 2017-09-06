@@ -1,0 +1,44 @@
+INFO [06-29|20:58:42] Starting peer-to-peer node               instance=Geth/v1.6.2-unstable/darwin-amd64/go1.8.1
+INFO [06-29|20:58:42] Allocated cache and file handles         database=/Users/Octavio/sites/koneksys/geth/compactChain/Node1/geth/chaindata cache=128 handles=1024
+INFO [06-29|20:58:42] Initialised chain configuration          config="{ChainID: 1234 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Engine: unknown}"
+INFO [06-29|20:58:42] Disk storage enabled for ethash caches   dir=/Users/Octavio/sites/koneksys/geth/compactChain/Node1/geth/ethash count=3
+INFO [06-29|20:58:42] Disk storage enabled for ethash DAGs     dir=/Users/octavio/.ethash                                            count=2
+INFO [06-29|20:58:42] Initialising Ethereum protocol           versions="[63 62]" network=1
+INFO [06-29|20:58:42] Loaded most recent local header          number=0 hash=778a1d…25c765 td=1
+INFO [06-29|20:58:42] Loaded most recent local full block      number=0 hash=778a1d…25c765 td=1
+INFO [06-29|20:58:42] Loaded most recent local fast block      number=0 hash=778a1d…25c765 td=1
+INFO [06-29|20:58:42] Starting P2P networking 
+INFO [06-29|20:58:42] Mapped network port                      proto=udp extport=30303 intport=30303 interface=NAT-PMP(192.168.2.1)
+INFO [06-29|20:58:42] RLPx listener up                         self=enode://56f8cd22f2d19061476e8e68d78c5ac5aff406d9a611f8f96f6da73597bbf2193c502479ebee436779b30cdfb9355061006ec24f398de0dda34379a70665d5de@192.168.15.7:30303
+INFO [06-29|20:58:42] IPC endpoint opened: /Users/Octavio/sites/koneksys/geth/compactChain/Node1/geth.ipc 
+INFO [06-29|20:58:42] Mapped network port                      proto=tcp extport=30303 intport=30303 interface=NAT-PMP(192.168.2.1)
+INFO [06-29|20:58:43] Unlocked account                         address=0xff7497999ce6d7a09068108d5f5292026ff6ed81
+INFO [06-29|20:59:00] Updated mining threads                   threads=0
+INFO [06-29|20:59:00] Starting mining operation 
+INFO [06-29|20:59:00] Commit new mining work                   number=1 txs=0 uncles=0 elapsed=9.150ms
+INFO [06-29|20:59:02] Successfully sealed new block            number=1 hash=4b2f18…492214
+INFO [06-29|20:59:02] Commit new mining work                   number=2 txs=0 uncles=0 elapsed=187.091µs
+INFO [06-29|20:59:02] 🔨 mined potential block                  number=1 hash=4b2f18…492214
+INFO [06-29|20:59:04] Successfully sealed new block            number=2 hash=9ad53c…d3a02a
+INFO [06-29|20:59:04] 🔨 mined potential block                  number=2 hash=9ad53c…d3a02a
+INFO [06-29|20:59:04] Commit new mining work                   number=3 txs=0 uncles=0 elapsed=218.186µs
+INFO [06-29|20:59:05] Successfully sealed new block            number=3 hash=9e9f8d…f5dbe1
+INFO [06-29|20:59:05] 🔨 mined potential block                  number=3 hash=9e9f8d…f5dbe1
+INFO [06-29|20:59:05] Commit new mining work                   number=4 txs=0 uncles=0 elapsed=200.456µs
+INFO [06-29|20:59:07] Successfully sealed new block            number=4 hash=e5395f…a312b2
+INFO [06-29|20:59:07] 🔨 mined potential block                  number=4 hash=e5395f…a312b2
+INFO [06-29|20:59:07] Commit new mining work                   number=5 txs=0 uncles=0 elapsed=196.452µs
+INFO [06-29|20:59:09] Successfully sealed new block            number=5 hash=62df69…20c3e7
+INFO [06-29|20:59:09] 🔨 mined potential block                  number=5 hash=62df69…20c3e7
+INFO [06-29|20:59:09] Commit new mining work                   number=6 txs=0 uncles=0 elapsed=203.726µs
+INFO [06-29|21:00:20] New wallet appeared                      url=keystore:///Users/Octavio/sites… status=Locked
+INFO [06-29|21:00:30] New wallet appeared                      url=keystore:///Users/Octavio/sites… status=Locked
+INFO [06-29|21:00:33] New wallet appeared                      url=keystore:///Users/Octavio/sites… status=Locked
+INFO [06-29|21:00:35] New wallet appeared                      url=keystore:///Users/Octavio/sites… status=Locked
+INFO [06-29|21:00:37] New wallet appeared                      url=keystore:///Users/Octavio/sites… status=Locked
+INFO [06-29|21:03:02] IPC endpoint closed: /Users/Octavio/sites/koneksys/geth/compactChain/Node1/geth.ipc 
+INFO [06-29|21:03:02] Blockchain manager stopped 
+INFO [06-29|21:03:02] Stopping Ethereum protocol 
+INFO [06-29|21:03:02] Ethereum protocol stopped 
+INFO [06-29|21:03:02] Transaction pool stopped 
+INFO [06-29|21:03:02] Database closed                          database=/Users/Octavio/sites/koneksys/geth/compactChain/Node1/geth/chaindata

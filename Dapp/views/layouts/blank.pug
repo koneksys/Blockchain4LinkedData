@@ -1,0 +1,26 @@
+include ../mixins/flash-messages
+include ../mixins/auth/auth-forms
+
+doctype html
+html
+  head
+    link(href="/styles/main.css", rel="stylesheet")
+    link(rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css")
+
+    block css
+    block head
+
+  body(class=section ? section : null)
+
+    //- intro
+    block intro
+    //- messages
+    +flash-messages(messages)
+    //- content
+    block content
+    //- footer
+    block footer
+
+    script(src='/js/lib/jquery/jquery-1.10.2.min.js')
+      
+    block page-js

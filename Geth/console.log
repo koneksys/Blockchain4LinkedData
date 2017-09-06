@@ -1,0 +1,21 @@
+INFO [07-10|17:41:06] Starting peer-to-peer node               instance=Geth/v1.6.2-unstable/darwin-amd64/go1.8.1
+INFO [07-10|17:41:06] Allocated cache and file handles         database=/Users/Octavio/sites/koneksys/geth/adminChain/Node1/geth/chaindata cache=128 handles=1024
+INFO [07-10|17:41:06] Initialised chain configuration          config="{ChainID: 1234 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Engine: unknown}"
+INFO [07-10|17:41:06] Disk storage enabled for ethash caches   dir=/Users/Octavio/sites/koneksys/geth/adminChain/Node1/geth/ethash count=3
+INFO [07-10|17:41:06] Disk storage enabled for ethash DAGs     dir=/Users/octavio/.ethash                                          count=2
+INFO [07-10|17:41:06] Initialising Ethereum protocol           versions="[63 62]" network=1
+INFO [07-10|17:41:06] Loaded most recent local header          number=48 hash=149c2a…45fecb td=49
+INFO [07-10|17:41:06] Loaded most recent local full block      number=48 hash=149c2a…45fecb td=49
+INFO [07-10|17:41:06] Loaded most recent local fast block      number=48 hash=149c2a…45fecb td=49
+WARN [07-10|17:41:06] Blockchain not empty, fast sync disabled 
+INFO [07-10|17:41:06] Starting P2P networking 
+INFO [07-10|17:41:06] Mapped network port                      proto=udp extport=30303 intport=30303 interface=NAT-PMP(192.168.2.1)
+INFO [07-10|17:41:07] RLPx listener up                         self=enode://a9129787c0d0958319ac568b1e9352036164e7506dee82ea0ba24f0f23b1f5264c60be4b9199865c7e738605d160a729c7629285a04281eee8fbd560b195c8d5@192.168.15.7:30303
+INFO [07-10|17:41:07] IPC endpoint opened: /Users/Octavio/sites/koneksys/geth/adminChain/Node1/geth.ipc 
+INFO [07-10|17:41:07] Mapped network port                      proto=tcp extport=30303 intport=30303 interface=NAT-PMP(192.168.2.1)
+INFO [07-10|17:41:14] IPC endpoint closed: /Users/Octavio/sites/koneksys/geth/adminChain/Node1/geth.ipc 
+INFO [07-10|17:41:14] Blockchain manager stopped 
+INFO [07-10|17:41:14] Stopping Ethereum protocol 
+INFO [07-10|17:41:14] Ethereum protocol stopped 
+INFO [07-10|17:41:14] Transaction pool stopped 
+INFO [07-10|17:41:14] Database closed                          database=/Users/Octavio/sites/koneksys/geth/adminChain/Node1/geth/chaindata

@@ -1,0 +1,25 @@
+{
+  "name": "koneksys",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "abi-decoder": "^1.0.8",
+    "async": "^1.4.2",
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "express-ejs-layouts": "^2.2.0",
+    "express-session": "^1.15.3",
+    "geth": "^0.3.0",
+    "html-element": "^2.2.0",
+    "jquery": "^3.2.1",
+    "jsdom": "^11.2.0",
+    "nodemon": "^1.10.2",
+    "pug": "^2.0.0-rc.2",
+    "web3": "^0.18.4"
+  }
+}

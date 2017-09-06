@@ -1,0 +1,54 @@
+//-
+  Join
+  ------------------------------
+
+  Args
+  * modal  - boolean
+  * initial [default "join"] - accepts "signin" | "join" | "password"
+
+mixin form-join(args)
+  .auth-box.modal-pane-join(class=args.modal && args.initial != 'join' ? 'hidden' : null)
+    div(class=args.modal ? 'modal-body' : null)
+      .wrapper.wrapper--default
+        .row
+          .text--center
+            //- include ../../includes/social-signin
+            //- p Or use your email, that's okay too:
+            form.form--signup#signUp(method='post', action='/signup', autocomplete='off', novalidate).stack-form
+              if args.modal
+                button(type="button", class="close-sc", data-dismiss="modal", aria-hidden="true") &times;
+              if path
+                input(type="hidden", name="target", value= path)
+              input(type='hidden', name='action', value='join')
+              //- input(type='hidden', name='target', value=!args.modal ? form.target : page.path)
+              if !args.modal
+                if form.error
+                  .flash-messages
+                    .alert.alert-danger
+                      div!= form.error.message || form.error
+
+                      //- Field Errors
+                      if form.error.errors && !_.isEmpty(form.error.errors)
+                        ul
+                          each error, key in form.error.errors
+                            li!= error.msg
+
+                - var checkFormError = function(key) { return form.error && form.error.errors && form.error.errors[key] ? 'has-error' : null }
+              .form-groups
+                .form-group.user(class=!args.modal ? checkFormError('firstname') : null)
+                  input(type='text', name='name', placeholder='Name', value=!args.modal ? form.firstname : null, required).form-control.form-control--first
+                .form-group.email(class=!args.modal ? checkFormError('email') : null)
+                  input.emailInput(type='email', name='email', placeholder='Email', value=!args.modal ? form.email : null, required).form-control
+                .form-group.pass(class=!args.modal ? checkFormError('password') : null)
+                  input.passInput(type='password', name='password', placeholder='Passsword', value=!args.modal ? form.password : null, required).form-control
+
+                button(type='submit', style="margin-top:15px;").button.button--block__default.button--full Sign up
+
+          .text-center.text-muted.mt-3
+            .footer-form.fix
+              .one-half.type2.title3 Already registered?
+              .one-half.fix.button3
+                if path
+                  a(href=args.modal ? js : '/login?target=' + path, rel=args.modal ? 'modal-pane' : null, data-modal-pane=args.modal ? 'signin' : null).button.button--small.button--clear.button--clear__alt Sign in
+                else
+                  a(href=args.modal ? js : '/login', rel=args.modal ? 'modal-pane' : null, data-modal-pane=args.modal ? 'signin' : null).button.button--small.button--clear.button--clear__alt Sign in

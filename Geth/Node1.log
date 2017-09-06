@@ -1,0 +1,331 @@
+INFO [07-21|14:13:31] Starting peer-to-peer node               instance=Geth/v1.6.2-unstable/darwin-amd64/go1.8.1
+INFO [07-21|14:13:31] Allocated cache and file handles         database=/Users/octavio/sites/scalchain/userChain/Node1/geth/chaindata cache=128 handles=1024
+INFO [07-21|14:13:31] Initialised chain configuration          config="{ChainID: 1234 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Engine: unknown}"
+INFO [07-21|14:13:31] Disk storage enabled for ethash caches   dir=/Users/octavio/sites/scalchain/userChain/Node1/geth/ethash count=3
+INFO [07-21|14:13:31] Disk storage enabled for ethash DAGs     dir=/Users/octavio/.ethash                                     count=2
+INFO [07-21|14:13:31] Initialising Ethereum protocol           versions="[63 62]" network=1234
+INFO [07-21|14:13:31] Loaded most recent local header          number=0 hash=778a1d…25c765 td=1
+INFO [07-21|14:13:31] Loaded most recent local full block      number=0 hash=778a1d…25c765 td=1
+INFO [07-21|14:13:31] Loaded most recent local fast block      number=0 hash=778a1d…25c765 td=1
+INFO [07-21|14:13:31] Starting P2P networking 
+INFO [07-21|14:13:31] RLPx listener up                         self="enode://69e61a6b0a58e51ea15252aed5f8e1c8385bd817a83d4d4820bda928d7a57f7d1e6386770fb81735fa90ab2d6756702a35bf0caebf651bcb355549e182abc2dd@[::]:30301?discport=0"
+INFO [07-21|14:13:31] IPC endpoint opened: /Users/octavio/sites/scalchain/userChain/Node1/geth.ipc 
+INFO [07-21|14:13:32] Unlocked account                         address=0xc919b2813bb05c64f742227383152476010bda86
+INFO [07-21|14:14:11] Updated mining threads                   threads=0
+INFO [07-21|14:14:11] Starting mining operation 
+INFO [07-21|14:14:11] Commit new mining work                   number=1 txs=0 uncles=0 elapsed=237.065µs
+INFO [07-21|14:14:13] Successfully sealed new block            number=1 hash=909dd5…4e5c62
+INFO [07-21|14:14:13] 🔨 mined potential block                  number=1 hash=909dd5…4e5c62
+INFO [07-21|14:14:13] Commit new mining work                   number=2 txs=0 uncles=0 elapsed=82.731ms
+INFO [07-21|14:14:15] Successfully sealed new block            number=2 hash=4d305b…b66c31
+INFO [07-21|14:14:15] 🔨 mined potential block                  number=2 hash=4d305b…b66c31
+INFO [07-21|14:14:15] Commit new mining work                   number=3 txs=0 uncles=0 elapsed=182.308µs
+INFO [07-21|14:14:17] Successfully sealed new block            number=3 hash=759efc…8a3c69
+INFO [07-21|14:14:17] 🔨 mined potential block                  number=3 hash=759efc…8a3c69
+INFO [07-21|14:14:17] Submitted contract creation              fullhash=0xcda6f2cfb40648da3ba0ba3cd40315da26abc9ad7203d45303bdd9fed6012aa3 contract=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:14:17] Commit new mining work                   number=4 txs=1 uncles=0 elapsed=44.669ms
+INFO [07-21|14:14:18] Successfully sealed new block            number=4 hash=95e8c8…8596b8
+INFO [07-21|14:14:18] 🔨 mined potential block                  number=4 hash=95e8c8…8596b8
+INFO [07-21|14:14:18] Commit new mining work                   number=5 txs=0 uncles=0 elapsed=185.12µs
+INFO [07-21|14:14:20] Successfully sealed new block            number=5 hash=36b120…b0a580
+INFO [07-21|14:14:20] 🔨 mined potential block                  number=5 hash=36b120…b0a580
+INFO [07-21|14:14:20] Commit new mining work                   number=6 txs=0 uncles=0 elapsed=161.913µs
+INFO [07-21|14:14:51] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:14:51] Submitted transaction                    fullhash=0x3b6781cfae141f3553fcaa9f1c777514226a92bceb8ee764ac94106a726352e2 recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:14:53] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:14:53] Submitted transaction                    fullhash=0x0109f082d7cf258c23b744a800239c49dbb2f458342a862b782e70fb94bc5c4e recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:14:53] Updated mining threads                   threads=0
+INFO [07-21|14:14:53] Starting mining operation 
+INFO [07-21|14:14:53] Commit new mining work                   number=6 txs=2 uncles=0 elapsed=682.946µs
+INFO [07-21|14:14:54] Successfully sealed new block            number=6 hash=79b64f…ce9763
+INFO [07-21|14:14:54] 🔗 block reached canonical chain          number=1 hash=909dd5…4e5c62
+INFO [07-21|14:14:54] 🔨 mined potential block                  number=6 hash=79b64f…ce9763
+INFO [07-21|14:14:54] Commit new mining work                   number=7 txs=0 uncles=0 elapsed=179.388µs
+INFO [07-21|14:14:55] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:14:56] Successfully sealed new block            number=7 hash=789edb…ef3370
+INFO [07-21|14:14:56] 🔗 block reached canonical chain          number=2 hash=4d305b…b66c31
+INFO [07-21|14:14:56] 🔨 mined potential block                  number=7 hash=789edb…ef3370
+INFO [07-21|14:14:56] Commit new mining work                   number=8 txs=0 uncles=0 elapsed=1.925ms
+INFO [07-21|14:14:57] Successfully sealed new block            number=8 hash=c62215…a2ca95
+INFO [07-21|14:14:57] 🔗 block reached canonical chain          number=3 hash=759efc…8a3c69
+INFO [07-21|14:14:57] 🔨 mined potential block                  number=8 hash=c62215…a2ca95
+INFO [07-21|14:14:57] Commit new mining work                   number=9 txs=0 uncles=0 elapsed=154.578µs
+INFO [07-21|14:14:57] Submitted transaction                    fullhash=0xdbbdab5c0e92e6848202bc3d82a2dcd4026b27fe87461a0ca4569b8147af807a recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:14:59] Successfully sealed new block            number=9 hash=df39e3…d6ff8d
+INFO [07-21|14:14:59] 🔗 block reached canonical chain          number=4 hash=95e8c8…8596b8
+INFO [07-21|14:14:59] 🔨 mined potential block                  number=9 hash=df39e3…d6ff8d
+INFO [07-21|14:14:59] Commit new mining work                   number=10 txs=1 uncles=0 elapsed=2.302ms
+INFO [07-21|14:15:00] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:15:01] Successfully sealed new block            number=10 hash=e0600b…be32f1
+INFO [07-21|14:15:01] 🔗 block reached canonical chain          number=5  hash=36b120…b0a580
+INFO [07-21|14:15:01] 🔨 mined potential block                  number=10 hash=e0600b…be32f1
+INFO [07-21|14:15:01] Commit new mining work                   number=11 txs=0 uncles=0 elapsed=387.305µs
+INFO [07-21|14:15:03] Successfully sealed new block            number=11 hash=09f978…e85bf4
+INFO [07-21|14:15:03] 🔗 block reached canonical chain          number=6  hash=79b64f…ce9763
+INFO [07-21|14:15:03] 🔨 mined potential block                  number=11 hash=09f978…e85bf4
+INFO [07-21|14:15:03] Commit new mining work                   number=12 txs=0 uncles=0 elapsed=189.669µs
+INFO [07-21|14:15:03] Submitted transaction                    fullhash=0x20a0c03d7db268be8dd11439e0a9a1089608fc8af54f659f6b438292119cc4e6 recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:15:05] Successfully sealed new block            number=12 hash=bfd93d…d35f82
+INFO [07-21|14:15:05] 🔗 block reached canonical chain          number=7  hash=789edb…ef3370
+INFO [07-21|14:15:05] 🔨 mined potential block                  number=12 hash=bfd93d…d35f82
+INFO [07-21|14:15:05] Commit new mining work                   number=13 txs=1 uncles=0 elapsed=1.209ms
+INFO [07-21|14:15:06] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:15:07] Successfully sealed new block            number=13 hash=550311…32ebae
+INFO [07-21|14:15:07] 🔗 block reached canonical chain          number=8  hash=c62215…a2ca95
+INFO [07-21|14:15:07] 🔨 mined potential block                  number=13 hash=550311…32ebae
+INFO [07-21|14:15:07] Commit new mining work                   number=14 txs=0 uncles=0 elapsed=177.754µs
+INFO [07-21|14:15:07] Submitted transaction                    fullhash=0x79ffe169e8d75aceeb8876db67ad5135d1bf323035bb83520baeb2794d18f1a3 recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:15:09] Successfully sealed new block            number=14 hash=8a0bea…5d2e35
+INFO [07-21|14:15:09] 🔗 block reached canonical chain          number=9  hash=df39e3…d6ff8d
+INFO [07-21|14:15:09] 🔨 mined potential block                  number=14 hash=8a0bea…5d2e35
+INFO [07-21|14:15:09] Commit new mining work                   number=15 txs=1 uncles=0 elapsed=17.754ms
+INFO [07-21|14:15:10] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:15:11] Successfully sealed new block            number=15 hash=4cb0ab…dbfd17
+INFO [07-21|14:15:11] 🔗 block reached canonical chain          number=10 hash=e0600b…be32f1
+INFO [07-21|14:15:11] 🔨 mined potential block                  number=15 hash=4cb0ab…dbfd17
+INFO [07-21|14:15:11] Commit new mining work                   number=16 txs=0 uncles=0 elapsed=297.406µs
+INFO [07-21|14:15:12] Submitted transaction                    fullhash=0x4cfa3524eed8fc75b0945948d81ac24865c145342e990bfc9f00971e9c59deed recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:15:12] Successfully sealed new block            number=16 hash=24e927…0bc070
+INFO [07-21|14:15:12] 🔗 block reached canonical chain          number=11 hash=09f978…e85bf4
+INFO [07-21|14:15:12] 🔨 mined potential block                  number=16 hash=24e927…0bc070
+INFO [07-21|14:15:12] Commit new mining work                   number=17 txs=1 uncles=0 elapsed=501.385µs
+INFO [07-21|14:15:14] Successfully sealed new block            number=17 hash=7da86a…81a35b
+INFO [07-21|14:15:14] 🔗 block reached canonical chain          number=12 hash=bfd93d…d35f82
+INFO [07-21|14:15:14] 🔨 mined potential block                  number=17 hash=7da86a…81a35b
+INFO [07-21|14:15:14] Commit new mining work                   number=18 txs=0 uncles=0 elapsed=287.894µs
+INFO [07-21|14:15:16] Successfully sealed new block            number=18 hash=e0dcb1…cb789d
+INFO [07-21|14:15:16] 🔗 block reached canonical chain          number=13 hash=550311…32ebae
+INFO [07-21|14:15:16] 🔨 mined potential block                  number=18 hash=e0dcb1…cb789d
+INFO [07-21|14:15:16] Commit new mining work                   number=19 txs=0 uncles=0 elapsed=187.718µs
+INFO [07-21|14:15:17] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:15:18] Successfully sealed new block            number=19 hash=cd5601…f6bad6
+INFO [07-21|14:15:18] 🔗 block reached canonical chain          number=14 hash=8a0bea…5d2e35
+INFO [07-21|14:15:18] 🔨 mined potential block                  number=19 hash=cd5601…f6bad6
+INFO [07-21|14:15:18] Commit new mining work                   number=20 txs=0 uncles=0 elapsed=265.704µs
+INFO [07-21|14:15:19] Submitted transaction                    fullhash=0x958145549d1694abbcf8181d56d61577f48bc105021b786015604cfd1ee9ca43 recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:15:19] Successfully sealed new block            number=20 hash=458164…bb8d02
+INFO [07-21|14:15:19] 🔗 block reached canonical chain          number=15 hash=4cb0ab…dbfd17
+INFO [07-21|14:15:19] 🔨 mined potential block                  number=20 hash=458164…bb8d02
+INFO [07-21|14:15:19] Commit new mining work                   number=21 txs=1 uncles=0 elapsed=466.012µs
+INFO [07-21|14:15:21] Successfully sealed new block            number=21 hash=fa3ef2…a61ef5
+INFO [07-21|14:15:21] 🔗 block reached canonical chain          number=16 hash=24e927…0bc070
+INFO [07-21|14:15:21] 🔨 mined potential block                  number=21 hash=fa3ef2…a61ef5
+INFO [07-21|14:15:21] Commit new mining work                   number=22 txs=0 uncles=0 elapsed=287.589µs
+INFO [07-21|14:15:23] Successfully sealed new block            number=22 hash=d08701…297a97
+INFO [07-21|14:15:23] 🔗 block reached canonical chain          number=17 hash=7da86a…81a35b
+INFO [07-21|14:15:23] 🔨 mined potential block                  number=22 hash=d08701…297a97
+INFO [07-21|14:15:23] Commit new mining work                   number=23 txs=0 uncles=0 elapsed=199.035µs
+INFO [07-21|14:15:24] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:15:25] Successfully sealed new block            number=23 hash=1f0ebb…4b446f
+INFO [07-21|14:15:25] 🔗 block reached canonical chain          number=18 hash=e0dcb1…cb789d
+INFO [07-21|14:15:25] 🔨 mined potential block                  number=23 hash=1f0ebb…4b446f
+INFO [07-21|14:15:25] Commit new mining work                   number=24 txs=0 uncles=0 elapsed=304.633µs
+INFO [07-21|14:15:25] Submitted transaction                    fullhash=0x0c7639cceacc14012c8345bd0426de462abd67aa8f16046b99336d73963b93b9 recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:15:26] Successfully sealed new block            number=24 hash=d67955…5fb198
+INFO [07-21|14:15:26] 🔗 block reached canonical chain          number=19 hash=cd5601…f6bad6
+INFO [07-21|14:15:26] 🔨 mined potential block                  number=24 hash=d67955…5fb198
+INFO [07-21|14:15:26] Commit new mining work                   number=25 txs=1 uncles=0 elapsed=584.777µs
+INFO [07-21|14:15:27] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:15:27] Submitted transaction                    fullhash=0x1ea8525d41b0ab550712f4b77b15ba6e5d1fc196254b317e8dcef7be10dca462 recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:15:28] Successfully sealed new block            number=25 hash=766be3…dee351
+INFO [07-21|14:15:28] 🔗 block reached canonical chain          number=20 hash=458164…bb8d02
+INFO [07-21|14:15:28] 🔨 mined potential block                  number=25 hash=766be3…dee351
+INFO [07-21|14:15:28] Commit new mining work                   number=26 txs=1 uncles=0 elapsed=1.260ms
+INFO [07-21|14:15:29] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:15:29] Successfully sealed new block            number=26 hash=dbd269…fa8c95
+INFO [07-21|14:15:29] Submitted transaction                    fullhash=0xc71ecad70d001ea3961780823025c208702d5bcbd6e34fa63626f0e41314a505 recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:15:29] 🔗 block reached canonical chain          number=21 hash=fa3ef2…a61ef5
+INFO [07-21|14:15:29] 🔨 mined potential block                  number=26 hash=dbd269…fa8c95
+INFO [07-21|14:15:29] Commit new mining work                   number=27 txs=1 uncles=0 elapsed=570.06µs
+INFO [07-21|14:15:31] Successfully sealed new block            number=27 hash=49a9ff…7aa83f
+INFO [07-21|14:15:31] 🔗 block reached canonical chain          number=22 hash=d08701…297a97
+INFO [07-21|14:15:31] 🔨 mined potential block                  number=27 hash=49a9ff…7aa83f
+INFO [07-21|14:15:31] Commit new mining work                   number=28 txs=0 uncles=0 elapsed=360.232µs
+INFO [07-21|14:15:34] Successfully sealed new block            number=28 hash=a9635b…59df5e
+INFO [07-21|14:15:34] 🔗 block reached canonical chain          number=23 hash=1f0ebb…4b446f
+INFO [07-21|14:15:34] 🔨 mined potential block                  number=28 hash=a9635b…59df5e
+INFO [07-21|14:15:34] Commit new mining work                   number=29 txs=0 uncles=0 elapsed=200.763µs
+INFO [07-21|14:15:36] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:15:36] Submitted transaction                    fullhash=0xea9b64767b8cbf0d35b987d3f21818723fbaf4e5acf1e902fd844f4b3fe9bd1d recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:15:38] Successfully sealed new block            number=29 hash=5eb427…760d2a
+INFO [07-21|14:15:38] 🔗 block reached canonical chain          number=24 hash=d67955…5fb198
+INFO [07-21|14:15:38] 🔨 mined potential block                  number=29 hash=5eb427…760d2a
+INFO [07-21|14:15:38] Commit new mining work                   number=30 txs=1 uncles=0 elapsed=575.597µs
+INFO [07-21|14:15:40] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:15:40] Submitted transaction                    fullhash=0x2eefcbf98191d4b33bc10da026e160f4d0f69757d26564f085fea1e7f3b45480 recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:15:41] Successfully sealed new block            number=30 hash=a5f471…af300c
+INFO [07-21|14:15:41] 🔗 block reached canonical chain          number=25 hash=766be3…dee351
+INFO [07-21|14:15:41] 🔨 mined potential block                  number=30 hash=a5f471…af300c
+INFO [07-21|14:15:41] Commit new mining work                   number=31 txs=1 uncles=0 elapsed=592.954µs
+INFO [07-21|14:15:42] Successfully sealed new block            number=31 hash=a18be3…fa8acc
+INFO [07-21|14:15:42] 🔗 block reached canonical chain          number=26 hash=dbd269…fa8c95
+INFO [07-21|14:15:42] 🔨 mined potential block                  number=31 hash=a18be3…fa8acc
+INFO [07-21|14:15:42] Commit new mining work                   number=32 txs=0 uncles=0 elapsed=325.351µs
+INFO [07-21|14:15:45] Successfully sealed new block            number=32 hash=21cde9…fe35da
+INFO [07-21|14:15:45] 🔗 block reached canonical chain          number=27 hash=49a9ff…7aa83f
+INFO [07-21|14:15:45] 🔨 mined potential block                  number=32 hash=21cde9…fe35da
+INFO [07-21|14:15:45] Commit new mining work                   number=33 txs=0 uncles=0 elapsed=188.282µs
+INFO [07-21|14:15:46] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:15:46] Submitted transaction                    fullhash=0x073625e0dd810436d147612ef0b0ff6813c02b1c3950d74c86de9b1ba6480534 recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:15:47] Successfully sealed new block            number=33 hash=140949…61ac8d
+INFO [07-21|14:15:47] 🔗 block reached canonical chain          number=28 hash=a9635b…59df5e
+INFO [07-21|14:15:47] 🔨 mined potential block                  number=33 hash=140949…61ac8d
+INFO [07-21|14:15:47] Commit new mining work                   number=34 txs=1 uncles=0 elapsed=882.957µs
+INFO [07-21|14:15:48] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:15:49] Successfully sealed new block            number=34 hash=10a399…08abc2
+INFO [07-21|14:15:49] 🔗 block reached canonical chain          number=29 hash=5eb427…760d2a
+INFO [07-21|14:15:49] 🔨 mined potential block                  number=34 hash=10a399…08abc2
+INFO [07-21|14:15:49] Commit new mining work                   number=35 txs=0 uncles=0 elapsed=198.533µs
+INFO [07-21|14:15:49] Submitted transaction                    fullhash=0xcb8dd03a8dba71f1fecc882f00a09f9584b3a176798829871b5ff749b6ecd217 recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:15:51] Successfully sealed new block            number=35 hash=9c130a…8a20ab
+INFO [07-21|14:15:51] 🔗 block reached canonical chain          number=30 hash=a5f471…af300c
+INFO [07-21|14:15:51] 🔨 mined potential block                  number=35 hash=9c130a…8a20ab
+INFO [07-21|14:15:51] Commit new mining work                   number=36 txs=1 uncles=0 elapsed=14.292ms
+INFO [07-21|14:15:52] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:15:52] Successfully sealed new block            number=36 hash=7f92b7…15b454
+INFO [07-21|14:15:52] 🔗 block reached canonical chain          number=31 hash=a18be3…fa8acc
+INFO [07-21|14:15:52] 🔨 mined potential block                  number=36 hash=7f92b7…15b454
+INFO [07-21|14:15:52] Commit new mining work                   number=37 txs=0 uncles=0 elapsed=211.594µs
+INFO [07-21|14:15:52] Submitted transaction                    fullhash=0x5c4e803a60c069de4485333d46e5505d2389bf5ac7aceaae42f076badc05110d recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:15:54] Successfully sealed new block            number=37 hash=35cffb…b197fe
+INFO [07-21|14:15:54] 🔗 block reached canonical chain          number=32 hash=21cde9…fe35da
+INFO [07-21|14:15:54] 🔨 mined potential block                  number=37 hash=35cffb…b197fe
+INFO [07-21|14:15:54] Commit new mining work                   number=38 txs=1 uncles=0 elapsed=923.398µs
+INFO [07-21|14:15:55] Successfully sealed new block            number=38 hash=05ebc5…ab511c
+INFO [07-21|14:15:55] 🔗 block reached canonical chain          number=33 hash=140949…61ac8d
+INFO [07-21|14:15:55] 🔨 mined potential block                  number=38 hash=05ebc5…ab511c
+INFO [07-21|14:15:55] Commit new mining work                   number=39 txs=0 uncles=0 elapsed=211.419µs
+INFO [07-21|14:15:56] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:15:56] Submitted transaction                    fullhash=0x2e14f5b10b4ca5ed8a8ca5512c86d33c73058d9ba3add701fc83e1e1a24f518e recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:15:57] Successfully sealed new block            number=39 hash=9bc315…8b73f5
+INFO [07-21|14:15:57] 🔗 block reached canonical chain          number=34 hash=10a399…08abc2
+INFO [07-21|14:15:57] 🔨 mined potential block                  number=39 hash=9bc315…8b73f5
+INFO [07-21|14:15:57] Commit new mining work                   number=40 txs=1 uncles=0 elapsed=1.102ms
+INFO [07-21|14:15:58] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:15:59] Successfully sealed new block            number=40 hash=4491e6…8a1f34
+INFO [07-21|14:15:59] 🔗 block reached canonical chain          number=35 hash=9c130a…8a20ab
+INFO [07-21|14:15:59] 🔨 mined potential block                  number=40 hash=4491e6…8a1f34
+INFO [07-21|14:15:59] Commit new mining work                   number=41 txs=0 uncles=0 elapsed=214.992µs
+INFO [07-21|14:15:59] Submitted transaction                    fullhash=0x8410ee0a71a40ac38dea7a279ff1670ac506baa4366fa772477d353acf6c06fe recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:16:01] Successfully sealed new block            number=41 hash=9e5d66…7239c5
+INFO [07-21|14:16:01] 🔗 block reached canonical chain          number=36 hash=7f92b7…15b454
+INFO [07-21|14:16:01] 🔨 mined potential block                  number=41 hash=9e5d66…7239c5
+INFO [07-21|14:16:01] Commit new mining work                   number=42 txs=1 uncles=0 elapsed=940.927µs
+INFO [07-21|14:16:02] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:16:02] Successfully sealed new block            number=42 hash=75667e…583684
+INFO [07-21|14:16:02] 🔗 block reached canonical chain          number=37 hash=35cffb…b197fe
+INFO [07-21|14:16:02] 🔨 mined potential block                  number=42 hash=75667e…583684
+INFO [07-21|14:16:02] Commit new mining work                   number=43 txs=0 uncles=0 elapsed=202.335µs
+INFO [07-21|14:16:02] Submitted transaction                    fullhash=0xc05bb223ab7af3420db165687dd214cf737618b07a22f56ec411f79f08444d4c recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:16:04] Successfully sealed new block            number=43 hash=c2370b…1a5018
+INFO [07-21|14:16:04] 🔗 block reached canonical chain          number=38 hash=05ebc5…ab511c
+INFO [07-21|14:16:04] 🔨 mined potential block                  number=43 hash=c2370b…1a5018
+INFO [07-21|14:16:04] Commit new mining work                   number=44 txs=1 uncles=0 elapsed=948.711µs
+INFO [07-21|14:16:07] Successfully sealed new block            number=44 hash=5f8f50…78cceb
+INFO [07-21|14:16:07] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:16:07] 🔗 block reached canonical chain          number=39 hash=9bc315…8b73f5
+INFO [07-21|14:16:07] 🔨 mined potential block                  number=44 hash=5f8f50…78cceb
+INFO [07-21|14:16:07] Commit new mining work                   number=45 txs=0 uncles=0 elapsed=250.043µs
+INFO [07-21|14:16:07] Submitted transaction                    fullhash=0x200e0dd0195656975e5372caacbe5645100c7fe15872b113516601aa5ed90433 recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:16:09] Successfully sealed new block            number=45 hash=f2284d…3f4c4f
+INFO [07-21|14:16:09] 🔗 block reached canonical chain          number=40 hash=4491e6…8a1f34
+INFO [07-21|14:16:09] 🔨 mined potential block                  number=45 hash=f2284d…3f4c4f
+INFO [07-21|14:16:09] Commit new mining work                   number=46 txs=1 uncles=0 elapsed=942.183µs
+INFO [07-21|14:16:11] Successfully sealed new block            number=46 hash=b5abcd…c7878c
+INFO [07-21|14:16:11] 🔗 block reached canonical chain          number=41 hash=9e5d66…7239c5
+INFO [07-21|14:16:11] 🔨 mined potential block                  number=46 hash=b5abcd…c7878c
+INFO [07-21|14:16:11] Commit new mining work                   number=47 txs=0 uncles=0 elapsed=233.652µs
+INFO [07-21|14:16:14] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:16:14] Submitted transaction                    fullhash=0x707b73cfcfdd87cac1e246e4c5bd877e81110ad9eaeff44316ce260d3690a2dd recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:16:15] Successfully sealed new block            number=47 hash=4c30eb…593cb1
+INFO [07-21|14:16:15] 🔗 block reached canonical chain          number=42 hash=75667e…583684
+INFO [07-21|14:16:15] 🔨 mined potential block                  number=47 hash=4c30eb…593cb1
+INFO [07-21|14:16:15] Commit new mining work                   number=48 txs=1 uncles=0 elapsed=1.063ms
+INFO [07-21|14:16:16] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:16:16] Successfully sealed new block            number=48 hash=7197a8…c12ab6
+INFO [07-21|14:16:16] 🔗 block reached canonical chain          number=43 hash=c2370b…1a5018
+INFO [07-21|14:16:16] 🔨 mined potential block                  number=48 hash=7197a8…c12ab6
+INFO [07-21|14:16:16] Commit new mining work                   number=49 txs=0 uncles=0 elapsed=212.7µs
+INFO [07-21|14:16:16] Submitted transaction                    fullhash=0x72b8debb6fd5d1731eb0c95354790b23f94a8225d611662bcfad8fef792adc4b recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:16:18] Successfully sealed new block            number=49 hash=4e9b57…c59344
+INFO [07-21|14:16:18] 🔗 block reached canonical chain          number=44 hash=5f8f50…78cceb
+INFO [07-21|14:16:18] 🔨 mined potential block                  number=49 hash=4e9b57…c59344
+INFO [07-21|14:16:18] Commit new mining work                   number=50 txs=1 uncles=0 elapsed=1.513ms
+INFO [07-21|14:16:19] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:16:19] Submitted transaction                    fullhash=0xa471bf892b7a1e4fb081c39ba7af2d8efd481cc3f1faf83031973a185b649cb6 recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:16:19] Successfully sealed new block            number=50 hash=b9f366…c3ecf6
+INFO [07-21|14:16:19] 🔗 block reached canonical chain          number=45 hash=f2284d…3f4c4f
+INFO [07-21|14:16:19] 🔨 mined potential block                  number=50 hash=b9f366…c3ecf6
+INFO [07-21|14:16:19] Commit new mining work                   number=51 txs=1 uncles=0 elapsed=501µs
+INFO [07-21|14:16:21] Successfully sealed new block            number=51 hash=8fd9f6…d4fb80
+INFO [07-21|14:16:21] 🔗 block reached canonical chain          number=46 hash=b5abcd…c7878c
+INFO [07-21|14:16:21] 🔨 mined potential block                  number=51 hash=8fd9f6…d4fb80
+INFO [07-21|14:16:21] Commit new mining work                   number=52 txs=0 uncles=0 elapsed=187.579µs
+INFO [07-21|14:16:22] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:16:22] Submitted transaction                    fullhash=0x6f674908843986b2fe0a85bd0f43ea107b57ca3be9ada1ca743777c26c53047d recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:16:24] Successfully sealed new block            number=52 hash=4654df…f31032
+INFO [07-21|14:16:24] 🔗 block reached canonical chain          number=47 hash=4c30eb…593cb1
+INFO [07-21|14:16:24] 🔨 mined potential block                  number=52 hash=4654df…f31032
+INFO [07-21|14:16:24] Commit new mining work                   number=53 txs=1 uncles=0 elapsed=1.001ms
+INFO [07-21|14:16:25] Successfully sealed new block            number=53 hash=27e5dc…9af4d9
+INFO [07-21|14:16:25] 🔗 block reached canonical chain          number=48 hash=7197a8…c12ab6
+INFO [07-21|14:16:25] 🔨 mined potential block                  number=53 hash=27e5dc…9af4d9
+INFO [07-21|14:16:25] Commit new mining work                   number=54 txs=0 uncles=0 elapsed=186.438µs
+INFO [07-21|14:16:26] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:16:26] Submitted transaction                    fullhash=0xbf1bc693c6174207a582d33c736590c1f5f31f61bb85b48b4c389726b2810c48 recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:16:27] Successfully sealed new block            number=54 hash=71341e…5e4e55
+INFO [07-21|14:16:27] 🔗 block reached canonical chain          number=49 hash=4e9b57…c59344
+INFO [07-21|14:16:27] 🔨 mined potential block                  number=54 hash=71341e…5e4e55
+INFO [07-21|14:16:27] Commit new mining work                   number=55 txs=1 uncles=0 elapsed=516.071µs
+INFO [07-21|14:16:28] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:16:29] Submitted transaction                    fullhash=0xff91a1fad6f37ed7ab4047aedd1e1c6c10f9d4aee483058e97f0d4b8ba45cac2 recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:16:29] Successfully sealed new block            number=55 hash=2b2e1d…2a0c51
+INFO [07-21|14:16:29] 🔗 block reached canonical chain          number=50 hash=b9f366…c3ecf6
+INFO [07-21|14:16:29] 🔨 mined potential block                  number=55 hash=2b2e1d…2a0c51
+INFO [07-21|14:16:29] Commit new mining work                   number=56 txs=1 uncles=0 elapsed=521.923µs
+INFO [07-21|14:16:30] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:16:31] Successfully sealed new block            number=56 hash=60bb54…5d086c
+INFO [07-21|14:16:31] 🔗 block reached canonical chain          number=51 hash=8fd9f6…d4fb80
+INFO [07-21|14:16:31] 🔨 mined potential block                  number=56 hash=60bb54…5d086c
+INFO [07-21|14:16:31] Commit new mining work                   number=57 txs=0 uncles=0 elapsed=396.355µs
+INFO [07-21|14:16:33] Successfully sealed new block            number=57 hash=459537…175d88
+INFO [07-21|14:16:33] Submitted transaction                    fullhash=0x896dcc32b2695625108b696f1ddb87ca7155aba6e6e4e25d4a117e1d453c8b92 recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:16:33] 🔗 block reached canonical chain          number=52 hash=4654df…f31032
+INFO [07-21|14:16:33] 🔨 mined potential block                  number=57 hash=459537…175d88
+INFO [07-21|14:16:33] Commit new mining work                   number=58 txs=1 uncles=0 elapsed=535.695µs
+INFO [07-21|14:16:35] Successfully sealed new block            number=58 hash=927838…50de2d
+INFO [07-21|14:16:35] 🔗 block reached canonical chain          number=53 hash=27e5dc…9af4d9
+INFO [07-21|14:16:35] 🔨 mined potential block                  number=58 hash=927838…50de2d
+INFO [07-21|14:16:35] Commit new mining work                   number=59 txs=0 uncles=0 elapsed=204.237µs
+INFO [07-21|14:16:36] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:16:37] Successfully sealed new block            number=59 hash=227543…af5c29
+INFO [07-21|14:16:37] 🔗 block reached canonical chain          number=54 hash=71341e…5e4e55
+INFO [07-21|14:16:37] 🔨 mined potential block                  number=59 hash=227543…af5c29
+INFO [07-21|14:16:37] Commit new mining work                   number=60 txs=0 uncles=0 elapsed=326.616µs
+INFO [07-21|14:16:37] Submitted transaction                    fullhash=0xb2836f7e12166abbd32c08b79c7db77033d798eb495d7c443d3ddbde4658d519 recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:16:40] Successfully sealed new block            number=60 hash=d3e19c…aeb7c8
+INFO [07-21|14:16:40] 🔗 block reached canonical chain          number=55 hash=2b2e1d…2a0c51
+INFO [07-21|14:16:40] 🔨 mined potential block                  number=60 hash=d3e19c…aeb7c8
+INFO [07-21|14:16:40] Commit new mining work                   number=61 txs=1 uncles=0 elapsed=539.535µs
+INFO [07-21|14:16:41] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:16:41] Successfully sealed new block            number=61 hash=face5d…250cff
+INFO [07-21|14:16:41] 🔗 block reached canonical chain          number=56 hash=60bb54…5d086c
+INFO [07-21|14:16:41] 🔨 mined potential block                  number=61 hash=face5d…250cff
+INFO [07-21|14:16:41] Commit new mining work                   number=62 txs=0 uncles=0 elapsed=412.282µs
+INFO [07-21|14:16:42] Submitted transaction                    fullhash=0x5dd79f59f90325706fb7aa75a8482e7d7fe2e9e217f56e0baf5818e85d0726a1 recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:16:43] Successfully sealed new block            number=62 hash=3aa2f2…cae0f7
+INFO [07-21|14:16:43] 🔗 block reached canonical chain          number=57 hash=459537…175d88
+INFO [07-21|14:16:43] 🔨 mined potential block                  number=62 hash=3aa2f2…cae0f7
+INFO [07-21|14:16:43] Commit new mining work                   number=63 txs=1 uncles=0 elapsed=623.983µs
+INFO [07-21|14:16:44] New wallet appeared                      url=keystore:///Users/octavio/sites… status=Locked
+INFO [07-21|14:16:45] Successfully sealed new block            number=63 hash=c48b66…c8adf2
+INFO [07-21|14:16:45] 🔗 block reached canonical chain          number=58 hash=927838…50de2d
+INFO [07-21|14:16:45] 🔨 mined potential block                  number=63 hash=c48b66…c8adf2
+INFO [07-21|14:16:45] Commit new mining work                   number=64 txs=0 uncles=0 elapsed=353.274µs
+INFO [07-21|14:16:45] Submitted transaction                    fullhash=0x83b9eaa1fa4e8ba202e5dbbfa2731ec9e6655bb07462eaca05873b701ed3a764 recipient=0xac1e150cb855b8de000618921a51ee49c52b7ee2
+INFO [07-21|14:16:45] IPC endpoint closed: /Users/octavio/sites/scalchain/userChain/Node1/geth.ipc 
+INFO [07-21|14:16:45] Blockchain manager stopped 
+INFO [07-21|14:16:45] Stopping Ethereum protocol 
+INFO [07-21|14:16:45] Ethereum protocol stopped 
+INFO [07-21|14:16:45] Transaction pool stopped 
+INFO [07-21|14:16:45] Database closed                          database=/Users/octavio/sites/scalchain/userChain/Node1/geth/chaindata

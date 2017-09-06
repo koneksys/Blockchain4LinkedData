@@ -1,0 +1,12 @@
+li(class= (msg.author.id == user.id ? "message message--own fb fd--rr" : "message fb"))
+  .message__author
+    img(src="http://res.cloudinary.com/agilekitchen/image/upload/c_fill,h_100,w_100/" + msg.author.photo_cloudinaryID)
+  .message__content
+    p= msg.content
+    - var mDate =  msg._.publishedDate.moment()
+    - var now = Date.now()
+    - var mDifference = mDate.diff(now, 'hours');
+    if difference > -24
+      .message__time= msg._.publishedDate.format('HH:mm a')
+    else
+      .message__time= msg._.publishedDate.format('DD MMM')

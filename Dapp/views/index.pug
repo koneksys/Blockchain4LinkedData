@@ -1,0 +1,27 @@
+extends /layouts/default
+
+block intro
+
+block content
+
+
+  header
+    h1.title Storage Dapp
+  .wrapper(style='margin: auto 6vh;')
+    .box1(id='box2',style='display:none')
+    .box1(id="box1")
+      .content
+        p.title2(style="padding: 0px 0px 1em") User info
+        .left
+          p
+            span.type1.type2 Account:
+            span.type1(id="Account")= locals.userAccount
+          p
+            span.strong.type1.type2 Balance
+            span.type1= locals.value
+    .box1.box2.box3(id="box3",style="padding: 15px 0px 1em;height: 64vh;")
+      p.title2.title3(id="pindextitle", style="padding: 0px;") These are your files
+    script
+      include jquery-3.2.1.min.js    
+      include web3.js
+      include index.js

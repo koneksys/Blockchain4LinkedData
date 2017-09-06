@@ -1,0 +1,48 @@
+extends /layouts/default
+
+block intro
+
+block content
+
+  section
+  .wrapper
+    .box5
+      .content.content1
+        h1.title4 Admin
+
+        p
+          span.admin1 Account:
+            span.type1.admin5= locals.admin
+        p
+          span.admin1.admin2 Balance
+            span.type1.admin5= locals.adminValue
+        table
+          th Name
+            each name in locals.names
+              tr.adminName
+                td = name
+          th Account
+            each accounts in locals.accounts
+              tr
+                td.admin3= accounts
+          // th Permission
+             each permission in locals.permission
+               tr
+                 td.admin3.admin4= permission
+
+          // each user in users
+            tr
+              td.admin3.admin4= user
+              td.admin3.admin4= user.name
+              td.admin3= user.account
+              td.admin3= user.isAllowed
+              td
+                form(method='post', action='/admin')
+                  input(type='hidden', name='action', value='admin')
+                    input(type='hidden', name='id', value=user.id)
+                  if user.isAllowed
+                    button.admin3.go(type='submit', name="permission", value="false").button Remove Permission
+                    if !user.isAllowed
+                      button.admin3.go(type='submit', name="permission", value="true").button Give Permission
+
+block footer

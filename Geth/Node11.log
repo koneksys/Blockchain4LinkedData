@@ -1,0 +1,20 @@
+INFO [07-19|20:06:12] Starting peer-to-peer node               instance=Geth/v1.6.2-unstable/darwin-amd64/go1.8.1
+INFO [07-19|20:06:12] Allocated cache and file handles         database=/Users/octavio/sites/scalchain/trChain/Node11/geth/chaindata cache=128 handles=1024
+INFO [07-19|20:06:12] Initialised chain configuration          config="{ChainID: 1234 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Engine: unknown}"
+INFO [07-19|20:06:12] Disk storage enabled for ethash caches   dir=/Users/octavio/sites/scalchain/trChain/Node11/geth/ethash count=3
+INFO [07-19|20:06:12] Disk storage enabled for ethash DAGs     dir=/Users/octavio/.ethash                                    count=2
+INFO [07-19|20:06:12] Initialising Ethereum protocol           versions="[63 62]" network=1234
+INFO [07-19|20:06:12] Loaded most recent local header          number=0 hash=778a1d…25c765 td=1
+INFO [07-19|20:06:12] Loaded most recent local full block      number=0 hash=778a1d…25c765 td=1
+INFO [07-19|20:06:12] Loaded most recent local fast block      number=0 hash=778a1d…25c765 td=1
+INFO [07-19|20:06:12] Starting P2P networking 
+INFO [07-19|20:06:12] RLPx listener up                         self="enode://eae501d72c1fdd0728f6dab9dadbe6c8a11cb6cfbb2ff53295e7edb68987f3ea7b823d9a22236a8001a25b08e8389eaae51e97ac67d5235540157d4a3882b3d6@[::]:30311?discport=0"
+INFO [07-19|20:06:12] IPC endpoint opened: /Users/octavio/sites/scalchain/trChain/Node11/geth.ipc 
+INFO [07-19|20:06:12] Mapped network port                      proto=tcp extport=30311 intport=30311 interface=NAT-PMP(192.168.2.1)
+INFO [07-19|20:06:13] Unlocked account                         address=0x840b18712ffb032ab6f511553b76908708e35dbe
+INFO [07-19|20:06:26] IPC endpoint closed: /Users/octavio/sites/scalchain/trChain/Node11/geth.ipc 
+INFO [07-19|20:06:26] Blockchain manager stopped 
+INFO [07-19|20:06:26] Stopping Ethereum protocol 
+INFO [07-19|20:06:26] Ethereum protocol stopped 
+INFO [07-19|20:06:26] Transaction pool stopped 
+INFO [07-19|20:06:26] Database closed                          database=/Users/octavio/sites/scalchain/trChain/Node11/geth/chaindata

@@ -1,0 +1,19 @@
+INFO [07-21|12:47:23] Starting peer-to-peer node               instance=Geth/v1.6.2-unstable/darwin-amd64/go1.8.1
+INFO [07-21|12:47:23] Allocated cache and file handles         database=/Users/octavio/sites/scalchain/userChain/Node10/geth/chaindata cache=128 handles=1024
+INFO [07-21|12:47:23] Initialised chain configuration          config="{ChainID: 1234 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Engine: unknown}"
+INFO [07-21|12:47:23] Disk storage enabled for ethash caches   dir=/Users/octavio/sites/scalchain/userChain/Node10/geth/ethash count=3
+INFO [07-21|12:47:23] Disk storage enabled for ethash DAGs     dir=/Users/octavio/.ethash                                      count=2
+INFO [07-21|12:47:23] Initialising Ethereum protocol           versions="[63 62]" network=1234
+INFO [07-21|12:47:23] Loaded most recent local header          number=0 hash=778a1d…25c765 td=1
+INFO [07-21|12:47:23] Loaded most recent local full block      number=0 hash=778a1d…25c765 td=1
+INFO [07-21|12:47:23] Loaded most recent local fast block      number=0 hash=778a1d…25c765 td=1
+INFO [07-21|12:47:23] Starting P2P networking 
+INFO [07-21|12:47:23] RLPx listener up                         self="enode://5a54c28372d25a4ecd95f786174b88cd4856d26811d9c5435c24469bcdb8b9a2939520454a1cfff56781852f7fc0857c21e367301a677153fbd6150990139044@[::]:30310?discport=0"
+INFO [07-21|12:47:23] IPC endpoint opened: /Users/octavio/sites/scalchain/userChain/Node10/geth.ipc 
+INFO [07-21|12:47:24] Unlocked account                         address=0x409aa0c0d346145aeb55468f1b2ff09280b25ba0
+INFO [07-21|12:47:44] IPC endpoint closed: /Users/octavio/sites/scalchain/userChain/Node10/geth.ipc 
+INFO [07-21|12:47:44] Blockchain manager stopped 
+INFO [07-21|12:47:44] Stopping Ethereum protocol 
+INFO [07-21|12:47:44] Ethereum protocol stopped 
+INFO [07-21|12:47:44] Transaction pool stopped 
+INFO [07-21|12:47:44] Database closed                          database=/Users/octavio/sites/scalchain/userChain/Node10/geth/chaindata

@@ -1,0 +1,19 @@
+INFO [07-21|12:47:06] Starting peer-to-peer node               instance=Geth/v1.6.2-unstable/darwin-amd64/go1.8.1
+INFO [07-21|12:47:06] Allocated cache and file handles         database=/Users/octavio/sites/scalchain/userChain/Node9/geth/chaindata cache=128 handles=1024
+INFO [07-21|12:47:06] Initialised chain configuration          config="{ChainID: 1234 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Engine: unknown}"
+INFO [07-21|12:47:06] Disk storage enabled for ethash caches   dir=/Users/octavio/sites/scalchain/userChain/Node9/geth/ethash count=3
+INFO [07-21|12:47:06] Disk storage enabled for ethash DAGs     dir=/Users/octavio/.ethash                                     count=2
+INFO [07-21|12:47:06] Initialising Ethereum protocol           versions="[63 62]" network=1234
+INFO [07-21|12:47:06] Loaded most recent local header          number=0 hash=778a1d…25c765 td=1
+INFO [07-21|12:47:06] Loaded most recent local full block      number=0 hash=778a1d…25c765 td=1
+INFO [07-21|12:47:06] Loaded most recent local fast block      number=0 hash=778a1d…25c765 td=1
+INFO [07-21|12:47:06] Starting P2P networking 
+INFO [07-21|12:47:06] RLPx listener up                         self="enode://0fd8a088128108ab00fa778a9b11a75507e69d66e23a441a708d551385cfd0e64b85471af2709ea98d4a061aeaac83e37c693dd8b97658e3e19e73af58e2d082@[::]:30309?discport=0"
+INFO [07-21|12:47:06] IPC endpoint opened: /Users/octavio/sites/scalchain/userChain/Node9/geth.ipc 
+INFO [07-21|12:47:07] Unlocked account                         address=0x3ed8b1616e981be63e16527b9b897c736f54d9df
+INFO [07-21|12:47:22] IPC endpoint closed: /Users/octavio/sites/scalchain/userChain/Node9/geth.ipc 
+INFO [07-21|12:47:22] Blockchain manager stopped 
+INFO [07-21|12:47:22] Stopping Ethereum protocol 
+INFO [07-21|12:47:22] Ethereum protocol stopped 
+INFO [07-21|12:47:22] Transaction pool stopped 
+INFO [07-21|12:47:22] Database closed                          database=/Users/octavio/sites/scalchain/userChain/Node9/geth/chaindata

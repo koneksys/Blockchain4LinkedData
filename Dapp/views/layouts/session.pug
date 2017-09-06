@@ -1,0 +1,72 @@
+include ../mixins/flash-messages
+include ../mixins/auth/auth-forms
+
+doctype html
+html
+
+  //- HTML HEAD
+  head
+    style
+      include styles.css
+
+    if env == 'production' && chartbeat_property && chartbeat_domain
+      script.
+        var _sf_startpt=(new Date()).getTime()
+
+    meta(charset="utf-8")
+    meta(name="viewport", content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width")
+
+    title= "Koneksys"
+    link(rel="apple-touch-icon", sizes="57x57", href="/apple-icon-57x57.png")
+    link(rel="apple-touch-icon", sizes="60x60", href="/apple-icon-60x60.png")
+    link(rel="apple-touch-icon", sizes="72x72", href="/apple-icon-72x72.png")
+    link(rel="apple-touch-icon", sizes="76x76", href="/apple-icon-76x76.png")
+    link(rel="apple-touch-icon", sizes="114x114", href="/apple-icon-114x114.png")
+    link(rel="apple-touch-icon", sizes="120x120", href="/apple-icon-120x120.png")
+    link(rel="apple-touch-icon", sizes="144x144", href="/apple-icon-144x144.png")
+    link(rel="apple-touch-icon", sizes="152x152", href="/apple-icon-152x152.png")
+    link(rel="apple-touch-icon", sizes="180x180", href="/apple-icon-180x180.png")
+    link(rel="icon" type="image/png", sizes="192x192",  href="/android-icon-192x192.png")
+    link(rel="icon" type="image/png", sizes="32x32", href="/favicon-32x32.png")
+    link(rel="icon" type="image/png", sizes="96x96", href="/favicon-96x96.png")
+    link(rel="icon" type="image/png", sizes="16x16", href="/favicon-16x16.png")
+    meta(name="msapplication-TileColor" content="#ffffff")
+    meta(name="msapplication-TileImage" content="/ms-icon-144x144.png")
+    meta(name="theme-color" content="#ffffff")
+    script(src="//use.typekit.net/bww6xgb.js")
+    script.
+      try{Typekit.load();}catch(e){}
+
+    if user && user.canAccessKeystone
+      link(href="/keystone/styles/content/editor.min.css", rel="stylesheet")
+
+    block css
+    block head
+    script(src='https://www.google.com/recaptcha/api.js')
+    script.
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-60872400-2', 'auto');
+      ga('send', 'pageview');
+  //- HTML BODY
+  body(class=section ? 'sitesection-' + section : null)
+
+        //- SITE BODY
+        block body
+          main.site-body(role='main')
+
+            block intro
+
+            +flash-messages(messages)
+
+            block content
+        block modal
+
+
+  //- JAVASCRIPT
+  script
+    include ../../views/jquery-3.2.1.min.js    
+    include ../../views/web3.js
