@@ -1,0 +1,11 @@
+eth.blockNumber
+eth.getBlock(0)
+miner.start(10)
+miner.stop()
+eth.blockNumber
+miner.stop()
+miner.start()
+miner.stop()
+eth.blockNumber
+eth.getBlock(500)
+eth.getBlock(0)

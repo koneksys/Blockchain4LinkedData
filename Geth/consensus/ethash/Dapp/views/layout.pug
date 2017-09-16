@@ -1,0 +1,68 @@
+extends /layouts/default
+
+block intro
+
+block content
+
+
+  header
+    h1.title Frankie Dapp
+  .wrapper
+    .box1
+      .content
+        p.title2 User info
+        .left
+          p
+            span.type1.type2 Name:
+            span.type1= locals.userName
+          p
+            span.type1.type2 Email:
+            span.type1= userEmail
+          p
+            span.type1.type2 Permission:
+            span.type1= userAllowed
+          p
+            span.type1.type2 Account:
+            span.type1= user.account
+          p
+            span.strong.type1.type2 Balance
+            span.type1= balance
+    .box1.box2
+      .content
+        p.title2 Edit user info
+        form.type3(action="/", method="post")
+          p
+            span.type1.type2.type4 New UserName
+            input.type1.button(type="text", name="name", placeholder="", style="display:inline-block;margin-bottom: 1em")
+          p
+            span.type1.type2.type4 New E-mail
+            input.type1.button(type="text", name="email", placeholder="", style="display:inline-block;margin-bottom: 1em")
+          p
+            span.type1.type2.type4 Your password
+            input.type1.button(type="password", name="password", placeholder="", style="display:inline-block;margin-bottom: 1em")
+
+          form(method='post', action='update')
+            input.button.button--block__default(type="submit", value="", style="display:block;")
+  if user.isAllowed
+    .wrapper
+      .box1.box2.box3
+        .content
+        p.title2.type5.type6 Transfer ether
+          form(action="", method="post")
+        p
+          span.type1.type2.type4.type5 Your Account
+          span.type1.type2.type5= user.account
+        p
+          span.type1.type2.type4.type5 Receiver
+          input.type1.type5.button(type="text", name="Account", placeholder="", style="display:inline-block;margin-bottom: 1em")
+        p
+          span.type1.type2.type4.type5 Amount (Ether)
+          input(type="hidden", name="action" value="send.ether")
+          input.type1.type5.button(type="text", name="Account", placeholder="", style="display:inline-block;margin-bottom: 1em")
+        p
+          span.type1.type2.type4.type5 Your password
+          input.type1.type5.button(type="password", name="password", placeholder="", style="display:inline-block;margin-bottom: 1em")
+        p
+            input.type5.button.button1.button--block__default(type="submit", value="Transfer", style="display:block;")
+
+block footer

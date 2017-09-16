@@ -1,0 +1,30 @@
+html
+  head
+    title= title || 'Koneksys'
+  body
+    .wrapper
+      .box5
+        .content.content1
+          span(style="position: absolute;margin-top: -26px;margin-left: 48em;font-size: 16px;") Retrieve a file          
+          button(onclick="location.href = 'http://localhost:3003/retrieve';",style="margin-top: -26px;margin-left: 87em;position: absolute;font-size: 10px;border: 1px solid #000;") Go
+          h1.title4 Save a file
+          span(style="text-align:center;margin:auto;display:block;") Write your code here or upload a file, make sure it works before hitting Go
+          input(type="file", class="uploadFile", placeholder="File", style="color: white;color:#fff;width: 6.3em;", onchange='onChooseFile(event, onFileLoad.bind(this, "codeInput"))')
+          div(style='border: solid 1px #3e3e3e;')
+            span(id="codeInput", contenteditable="true",style="width: 100%;")
+          input(type='hidden', name='action', value='run')
+          span(class="type7", style="display:block; text-align:left; margin-top:10px;") Please indicate your address
+          input(id="address", type="text", style="margin-top: 15px;margin-left: 5px;outline:none;width: 450px;", placeholder="Account") 
+          span(class="type7", style="display: block;text-align: left;") Name your file/code
+          input(id="name", type="text", style="margin-top: 5px;margin-left: 5px;outline:none;width:450px;", placeholder="File Name") 
+          button.button12.type5.testGo(type='submit',style='margin: auto; margin-top: 1em; display: block;', onclick="storeIt();").button Go      
+          //- form(method='post')
+          //-   input(type='hidden', name='action', value='run')
+          //-   button.button12.type5(type='submit', style='margin: auto; margin-top: 0em; display: block;').button testRDF  
+    script
+      include jquery-3.2.1.min.js    
+      include web3.js
+      include parser.js
+      include save.js
+    style
+      include /layouts/styles.css

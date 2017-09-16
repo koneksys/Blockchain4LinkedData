@@ -1,0 +1,30 @@
+extends /layouts/default
+block intro
+  style
+    include explorer.css
+block content
+
+  div.wrapper
+    div.title
+      h4 Block explorer
+      p.psearch
+        input(type='text', id='input', placeholder='Search by block, trasnactions or account')
+        button.go
+          span Go
+    div.header
+      div.blockNumber Block N°
+      div.hash Hash
+      div.transactions Transactions
+      div.timestamp Date
+  div.modal
+    div.modal-bg
+    div.modal-content
+      div.block-content
+        h2.block-number
+          strong
+          span
+        div#transactions
+
+
+
+block footer

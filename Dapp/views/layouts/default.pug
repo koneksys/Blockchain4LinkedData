@@ -1,0 +1,55 @@
+include ../mixins/flash-messages
+include ../mixins/auth/auth-forms
+
+doctype html
+html
+  head
+    style
+      include styles.css
+    if env === 'production'
+      script.
+        var _sf_startpt=(new Date()).getTime()
+
+    meta(charset="utf-8")
+    meta(name="viewport", content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width")
+
+    title= title || 'Koneksys'
+    meta(name="description", content= description)
+    // Start - Opengraph data
+
+    link(href='//fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700', rel='stylesheet')
+    link(href="/styles/main.css", rel="stylesheet")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")
+    link(rel="manifest" href="/manifest.json")
+    link(href="http://addtocalendar.com/atc/1.5/atc-style-menu-wb.css" rel="stylesheet" type="text/css")
+    if user && user.canAccessKeystone
+      link(href="/keystone/styles/content/editor.min.css", rel="stylesheet")
+
+    block css
+    block head
+
+  body(class=section ? section : null)
+    script.
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '1024593784255001',
+          xfbml      : true,
+          version    : 'v2.6'
+        });
+      };
+
+      (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "//connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    //- intro
+    block intro
+    //- messages
+    +flash-messages(messages)
+    //- content
+    block content
+    //- footer
+    block footer

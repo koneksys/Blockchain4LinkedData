@@ -1,0 +1,27 @@
+build/bin/geth --nodiscover console --networkid "1234" --preload "transactions.js, peerr.js" --unlock 0 --password pas.txt --datadir /Users/octavio/sites/scalchain/userChain/Node1 --port "30301" --rpcport "8501" 2>Node1.log
+
+build/bin/geth --nodiscover console --networkid "1234" --preload "transactions.js" --unlock 0 --password pas.txt --datadir /Users/octavio/sites/scalchain/userChain/Node2 --port "30302" --rpcport "8502" 2>Node2.log
+
+build/bin/geth --nodiscover console --networkid "1234" --preload "transactions.js" --unlock 0 --password pas.txt --datadir /Users/octavio/sites/scalchain/userChain/Node3 --port "30303" --rpcport "8503" 2>Node3.log
+
+build/bin/geth --nodiscover console --networkid "1234" --preload "transactions.js" --unlock 0 --password pas.txt --datadir /Users/octavio/sites/scalchain/userChain/Node4 --port "30304" --rpcport "8504" 2>Node4.log
+
+build/bin/geth --nodiscover console --networkid "1234" --preload "transactions.js" --unlock 0 --password pas.txt --datadir /Users/octavio/sites/scalchain/userChain/Node5 --port "30305" --rpcport "8505" 2>Node5.log
+
+build/bin/geth --nodiscover console --networkid "1234" --preload "transactions.js" --unlock 0 --password pas.txt --datadir /Users/octavio/sites/scalchain/userChain/Node6 --port "30306" --rpcport "8506" 2>Node6.log
+
+build/bin/geth --nodiscover console --networkid "1234" --preload "transactions.js" --unlock 0 --password pas.txt --datadir /Users/octavio/sites/scalchain/userChain/Node7 --port "30307" --rpcport "8507" 2>Node7.log
+
+build/bin/geth --nodiscover console --networkid "1234" --preload "transactions.js" --unlock 0 --password pas.txt --datadir /Users/octavio/sites/scalchain/userChain/Node8 --port "30308" --rpcport "8508" 2>Node8.log
+
+build/bin/geth --nodiscover console --networkid "1234" --preload "transactions.js" --unlock 0 --password pas.txt --datadir /Users/octavio/sites/scalchain/userChain/Node9 --port "30309" --rpcport "8509" 2>Node9.log
+
+build/bin/geth --nodiscover console --networkid "1234" --preload "transactions.js" --unlock 0 --password pas.txt --datadir /Users/octavio/sites/scalchain/userChain/Node10 --port "30310" --rpcport "8510" 2>Node10.log
+
+build/bin/geth --nodiscover console --networkid "1234" --preload "transactions.js" --unlock 0 --password pas.txt --datadir /Users/octavio/sites/scalchain/trChain/Node11 --port "30311" --rpcport "8511" 2>Node11.log
+
+build/bin/geth --nodiscover console --networkid "1234" --preload "transactions.js" --unlock 0 --password pas.txt --datadir /Users/octavio/sites/scalchain/trChain/Node12 --port "30312" --rpcport "8512" 2>Node12.log
+
+build/bin/geth --nodiscover console --networkid "1234" --preload "transactions.js" --unlock 0 --password pas.txt --datadir /Users/octavio/sites/scalchain/trChain/Node13 --port "30313" --rpcport "8513" 2>Node13.log
+
+build/bin/geth --nodiscover console --networkid "1234" --preload "transactions.js" --unlock 0 --password pas.txt --datadir /Users/octavio/sites/scalchain/trChain/Node14 --port "30314" --rpcport "8514" 2>Node14.log

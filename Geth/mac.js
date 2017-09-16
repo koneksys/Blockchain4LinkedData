@@ -1,0 +1,1 @@
+build/bin/geth --nodiscover console --networkid "1234" --preload "scal.js, miner.js" --unlock 0 --password pas.txt --datadir "cd /home/octavio/sites/scalchain/customChain/Node1" --port "30301" --rpcport "8501" 2>Node1.log

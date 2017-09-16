@@ -1,0 +1,14 @@
+ul#conversation(data-id= conversation.id)
+  each message in locals.msgs
+    li(class= (message.author.id == user.id ? "message message--own fb fd--rr" : "message fb"))
+      .message__author
+        img(src=(message.author.photo ? message.author._.photo.thumbnail(40,40) : message.author.avatarUrl || '/images/avatar.png'), width=45)
+      .message__content
+        p= message.content
+        - var mDate =  message._.publishedDate.moment()
+        - var now = Date.now()
+        - var mDifference = mDate.diff(now, 'hours');
+        if difference > -24
+          .message__time= message._.publishedDate.format('HH:mm a')
+        else
+          .message__time= message._.publishedDate.format('DD MMM')

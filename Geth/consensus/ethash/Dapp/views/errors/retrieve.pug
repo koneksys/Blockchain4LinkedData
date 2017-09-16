@@ -1,0 +1,26 @@
+html
+  head
+    title= title || 'Koneksys'
+  body
+    .wrapper
+      .box5
+        .content.content1
+          span(style="position: absolute;margin-top: -26px;margin-left: 49.5em;font-size: 16px;") Save a file
+          button(onclick="location.href = 'http://localhost:3003/save';",style="margin-top: -26px;margin-left: 87em;position: absolute;font-size: 10px;border: 1px solid #000;") Go
+          h1.title4 Retrieve your files
+          span(id="title",class="type7", style="display:block; text-align:left; margin-top:10px;") Please indicate which file you want to retrieve
+          input(id="fileName", type="text", style="margin-top: 5px;margin-left: 5px;outline:none;width: 92.2%;", placeholder="Name of file") 
+          button.button12.type5.testGo(id="button", type='submit',style='margin: auto; margin-top: 5px; display: block;', onclick="retrieveFile();").button Go  
+          span(id="CodeLabel", style="display: none; font-size:20px;text-align: center;")
+          span(id="CodeInput", contenteditable="true",style="width: 100%; border: 1px solid;display: none;")
+          span(id="newNameSpan",class="type7", style="display: none;text-align: left;") Name your file/code
+          input(id="newNameAddress", type="text", style="display: none;margin-top: 15px;margin-left: 5px;outline:none;width: 450px;", placeholder="Account")
+          input(id="newName", type="text", style="display: none;margin-top: 5px;margin-left: 5px;outline:none;width:450px;", placeholder="New file name") 
+          button.button12.type5.testGo(id='newButton',style='margin: auto; margin-top: 1em; display: none;', onclick="rename();").button Rename  
+    script
+      include jquery-3.2.1.min.js    
+      include web3.js
+      include parser.js
+      include save.js
+    style
+      include /layouts/styles.css

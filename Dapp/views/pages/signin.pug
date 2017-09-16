@@ -1,0 +1,19 @@
+block flash-messages
+	//- intentionally blank
+
+block content
+		.logo-center
+			a(href="/" title="Back to Home" class="logo")
+				img(src="http://koneksys.com/wp-content/uploads/2016/10/KONEKSYS_Logo-petit.png" style="width:150px;")
+
+		.page-intro
+			//- h1 Inicia sesión
+			//- +flash-messages(messages)
+		.page-content
+			+auth-forms({ modal: false, initial: 'signin' })
+
+block js
+	script.
+		jQuery(function($) {
+			$('.auth-form').find('.form-control').eq(0).focus().select();
+		});

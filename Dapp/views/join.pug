@@ -1,0 +1,18 @@
+extends /layouts/session
+
+block content
+	header
+		.logo-center.title(style="margin-top: .5em;")
+			a(href="/" title="Back to Home" class="logo")
+				img(src="http://koneksys.com/wp-content/uploads/2016/10/KONEKSYS_Logo-petit.png" style="width:150px;")
+	.wrapper
+		.box1.box4(style='width: 60vh;height: 35vh;text-align: center;display: block;margin: auto;margin-left: 38vh;')
+			.content
+				p.title2.type7 Sign up
+				.page-content
+					form(method='post')
+						input(type='hidden', name='action', value='signup')
+						input.singin.signup(type="password", name="password", placeholder="Password")
+						button.buttonsign(type='submit', style="margin-left:0px;").button Sign up
+					span.type8 Already have an account?
+					a(class='buttonRedirect' href='http://localhost:3003/signin') Sign in
